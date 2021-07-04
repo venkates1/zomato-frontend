@@ -1,0 +1,506 @@
+  .filter__heading {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkslateblue;
+    padding: 15px;
+  }
+  .filter__container {
+    margin-top: 0px;
+  }
+  .filters {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    font-size: 18px;
+    color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+  }
+  #filters {
+    padding: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  .filters .expand__more {
+    display: none;
+  }
+  .select-location {
+    font-size: 14px;
+    color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+  }
+  .dropdown {
+    margin-top: 20px;
+  }
+  select {
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    color: #8c96ab;
+    border-color: #8c96ab;
+    border-radius: 5px;
+  }
+  .cuisine {
+    font-size: 14px;
+    color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 30px;
+  }
+  .items {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 35px;
+    font-size: 14px;
+    color: #8c96ab;
+    line-height: 1.8;
+  }
+  .costfortwo {
+    color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+  }
+  .items2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 35px;
+    font-size: 14px;
+    color: #8c96ab;
+    line-height: 1.8;
+  }
+  .sort {
+    color: darkslateblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+  }
+  .items3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-top: 35px;
+    font-size: 14px;
+    color: #8c96ab;
+    line-height: 1.8;
+  }
+  
+  .right .righttb {
+    box-shadow: 2px 2px 2px 2px lightgray;
+    padding: 30px;
+    margin-top:20px;
+    cursor:pointer;
+  }
+  .right .righttb:hover{
+    box-shadow:4px 4px 4px 4px lightgray;
+    transition: 0.5s;
+  }
+  .right .righttb .right__top {
+    display: flex;
+  
+    align-items: center;
+  }
+  .fimage {
+    margin-top: 12px;
+    margin-left: 25px;
+  }
+  
+  .side-text {
+    margin-left: 20px;
+    width: fit-content;
+  }
+  .item__image{
+    border-radius: 10px;
+  }
+  
+  
+  .right__topBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 25px;
+    
+    
+  }
+  .restaurant_name {
+    font-size: 30px;
+    color: darkslateblue;
+    font-weight: 550;
+    letter-spacing: normal;
+    padding: 2px;
+    width: 500px;
+    font-weight: 700;
+  }
+  .fort {
+    font-size: 15px;
+    color: darkslateblue;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 2px;
+  }
+  .address {
+    font-size: 15px;
+    color: #636f88;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 2px;
+    width: 500px;
+  }
+  hr {
+    width: 65vw;
+    border-top-color: #9858eb;
+    opacity: 0.5;
+    margin-top: 40px;
+  }
+  .fa-rupee-sign {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .pagination {
+    width: fit-content;
+    padding: 10px;
+    margin:20px 350px;
+    
+  }
+  .pagination a {
+    text-decoration: none;
+    border: 1px solid #8c96ab;
+    padding: 5px 10px;
+    margin: 1px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8c96ab;
+  }
+  .pagination a.active {
+    background-color: #8c96ab;
+    color: white;
+  }
+  .checkbox-container input {
+    display: none;
+  }
+  .checkbox-container {
+    display: block;
+  }
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #636f88;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    border: 2px solid #3a5076;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  input:checked + .checkmark {
+    background-color: #636f88;
+  }
+  .checkbox-container .checkmark::after {
+    content: "";
+    position: absolute;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 5px;
+    width: 11px;
+    transform: rotate(320deg);
+    top: 4px;
+    left: 3px;
+  }
+  .radio-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  .radio_text{
+    align-items: center;
+    margin: 2px 10px;
+    position:relative;
+    top:2px;
+  }
+  
+  
+  
+  
+  
+
+  .no-records{
+    color:red;
+    font-size:30px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top:200px;
+    font-style: italic;
+    
+  }
+  .MuiSvgIcon-root{
+    font-size: 25px !important;
+    position: relative;
+    top:0px;
+  }
+  @media screen and (max-width: 600px) {
+    .heading {
+      font-size: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      color: darkslateblue;
+      padding: 15px;
+      margin-left: 15px;
+    }
+    .filters {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      padding: 10px;
+      font-size: 18px;
+      color: darkslateblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 550;
+      margin: 0px 20px;
+    }
+    .filters .expand__more {
+      display: initial;
+    }
+    #filters {
+      padding: 10px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      margin: 0px 20px;
+    }
+  
+    .right {
+      margin-top: 50px;
+    }
+    .right .rightttb {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      margin: 35px 20px;
+      height: 200px;
+    }
+    .right .righttb {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      margin: 0px 20px;
+      height: 200px;
+    }
+  
+    .fimage {
+      margin-left: -5px;
+  
+      width: 100px;
+      height: 100px;
+      opacity: 1;
+      margin-top: -5px;
+    }
+    .item__image {
+      border-radius: 23px;
+      width: 70px;
+      height: 70px;
+    }
+    .side-text {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-bottom: 40px;
+    }
+    .right__topBottom,
+    .right__bottomBottom {
+      margin-top: -60px;
+      margin-left: 25px;
+      font-size: 12px !important;
+      line-height: 2;
+    }
+  
+    .bottom-text {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #636f88;
+      word-spacing: 2px;
+      bottom: 100px;
+    }
+    .bts-text {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+      color: darkslateblue;
+    }
+    .restaurant_name {
+      font-size: 15px;
+      color: darkslateblue;
+      font-weight: 550;
+      letter-spacing: normal;
+      padding: 2px;
+    }
+    .fort {
+      font-size: 10px;
+      color: darkslateblue;
+      font-weight: 500;
+      letter-spacing: normal;
+      text-align: left;
+      padding: 2px;
+    }
+    .address {
+      font-size: 10px;
+      color: #636f88;
+      font-weight: normal;
+      letter-spacing: normal;
+      text-align: left;
+      padding: 2px;
+    }
+    hr {
+      width: 70vw;
+      border-top-color: #9858eb;
+      opacity: 0.5;
+      position: relative;
+      bottom: 60px;
+    }
+    .pagination {
+      padding: 10px;
+      margin: 10px 130px;
+      width: fit-content;
+    }
+    .pagination a {
+      text-decoration: none;
+      border: 1px solid #8c96ab;
+      padding: 4px 8px;
+      margin: 1px;
+      border-radius: 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #8c96ab;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 792px) {
+    .login {
+      margin-left: 390px;
+      text-align: center;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500;
+      position: relative;
+      bottom: 5px;
+      padding: 10px;
+      font-size: 17px;
+      left: 10px;
+    }
+    .signup {
+      margin-left: 20px;
+      text-align: center;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500;
+      position: relative;
+      bottom: 5px;
+      border: 1px solid white;
+      padding: 10px;
+      font-size: 17px;
+    }
+    .right {
+      margin-left: -65px;
+    }
+  
+    .filters {
+      width: 300px;
+    }
+    #filters {
+      width: 300px;
+    }
+    .righttb,
+    .rightttb {
+      width: 410px;
+    }
+    .right__top,
+    .right__bottom {
+      margin-left: -40px;
+    }
+    .restaurant_name {
+      font-size: 25px;
+    }
+    .address {
+      font-size: 12px;
+    }
+    .item_image {
+      width: 80px;
+      height: 80px;
+    }
+    hr {
+      width: 40vw;
+    }
+    .pagination {
+      padding: 10px;
+      margin: 10px 130px;
+      width: fit-content;
+    }
+  }
+  @media only screen and (min-width: 793px) and (max-width: 992px) {
+    .filters {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      padding: 10px;
+      font-size: 18px;
+      color: darkslateblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 550;
+      margin: 0px 20px;
+      width: 300px;
+    }
+  
+    #filters {
+      padding: 10px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      margin: 0px 20px;
+      width: 300px;
+    }
+    .right {
+      margin-left: -50px;
+    }
+    .right .righttb,
+    .rightttb {
+      width: 50vw;
+    }
+    .right .righttb .right__top {
+      display: flex;
+      align-items: center;
+    }
+    .fimage {
+      margin-top: 12px;
+      margin-left: -15px;
+    }
+    .side-text {
+      margin-left: 25px;
+    }
+    .restaurant_name {
+      font-size: 25px;
+    }
+    .fort {
+      font-size: 12px;
+    }
+    .address {
+      font-size: 12px;
+    }
+    .item__image {
+      width: 80px;
+      height: 80px;
+    }
+    hr {
+      width: 40vw;
+      border-top-color: #9858eb;
+      opacity: 0.5;
+      position: relative;
+      bottom: 20px;
+    }
+    .right__topBottom,
+    .right__bottomBottom {
+      position: relative;
+      bottom: 20px;
+    }
+  }
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    hr {
+      width: 60vw;
+    }
+  }
+  
